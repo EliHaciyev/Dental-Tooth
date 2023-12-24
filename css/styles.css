@@ -1,0 +1,65 @@
+body {
+  font-family: "Source Sans Pro";
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Start */
+.header-top {
+  background: #2378c9;
+  padding: 14px 0;
+}
+.header-top-row {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+}
+.header-top-row a {
+  color: #fff;
+}
+.header-top-location {
+  display: flex;
+}
+.header-top-location img {
+  margin-right: 14px;
+}
+.header-top-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.header-top-phone {
+  margin-right: 40px;
+}
+.header-top-gmail {
+  margin-right: 55px;
+}
+
+.header-top-phone {
+  display: flex;
+  align-items: center;
+}
+.header-top-phone img,
+.header-top-gmail img {
+  margin-right: 14px;
+}
+.header-top-sosial {
+  display: flex;
+  align-items: center;
+}
+.header-top-sosial a:not(:last-child) {
+  margin-right: 31px;
+}
+.header-top-sosial a img {
+  max-width: 22px;
+}
+.header-top-sosial a:hover {
+  transition: 0.3s ease;
+  transform: rotate(360deg);
+}
+
+/* Header End */
