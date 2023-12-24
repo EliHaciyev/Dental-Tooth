@@ -61,5 +61,46 @@ body {
   transition: 0.3s ease;
   transform: rotate(360deg);
 }
+.header-bottom {
+  padding: 20px 0;
+}
+
+.header-bottom-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo img {
+  max-width: 172px ;
+}
+.nav-menu-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-menu-link {
+  color: #302D2D;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: .35s ease;
+}
+.nav-menu-link:hover {
+  color: #2378c9;
+}
+.header-button-btn {
+  color: #fff;
+  border-radius: 26px;
+  background: #F86D6D;
+  padding: 17px 28px;
+  font-size: 14px;
+  transition: .035s ease;
+}
+.header-button-btn:hover {
+  background-color: #E25E5E;
+}
+
 
 /* Header End */
